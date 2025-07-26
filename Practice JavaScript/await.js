@@ -15,8 +15,8 @@ const shopForCars = () => {
 };
 
 const buyCar = async () => {
-    let resolvedValue = await shopForCars(); // here the await keyword halts, pauses the execution of our function for the above the promise function to resolved first.
-    console.log(`Let's buy a ${resolvedValue}!!`);
+    let car = await shopForCars(); // here the await keyword halts, pauses the execution of our function for the above the promise function to resolved first.
+    console.log(`Let's buy a ${car} then!!`);
 };
 
 buyCar();
