@@ -27,7 +27,6 @@ function curried_add(a){
 let addOne = curried_add(1);
 console.log(addOne(44)); // this will add 1 to 44 and return 45
 
-
 // arrow function syntax of curried add is
 
 let curry_add = a => b => a + b;
