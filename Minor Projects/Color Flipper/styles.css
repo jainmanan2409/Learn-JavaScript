@@ -1,0 +1,24 @@
+h1 {
+    font-size: 75px;
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+#lavender {
+    background-color: hsl(303, 71%, 85%);
+}
+
+#mint {
+    background-color: hsl(128, 89%, 83%);
+}
+
+#sky {
+    background-color: hsl(209, 58%, 58%);
+}
