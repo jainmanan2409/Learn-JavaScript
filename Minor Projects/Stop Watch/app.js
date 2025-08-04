@@ -25,6 +25,7 @@ function start() {
 
 function stop() {
     clearInterval(timer);
+    timer = null;
 }
 
 function reset() {
