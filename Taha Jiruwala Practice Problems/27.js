@@ -1,4 +1,4 @@
-// Access to Restricted Area\
+// Access to Restricted Area
 
 function canAccessRestrictedArea (age, badge){
     if(age >= 18 && badge === true){
