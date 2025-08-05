@@ -1,7 +1,5 @@
 // Simple Math Operations
 
-const { blob } = require("stream/consumers");
-
 const simpleMath = (a,b,op) => {
     if(op === '+'){
         return a+b;
